@@ -407,6 +407,7 @@ int main()
             break;
         }
     }
-    cleanup_memory;
+    cleanup_memory();
     return 0;
+
 }
